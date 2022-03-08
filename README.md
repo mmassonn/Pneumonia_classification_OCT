@@ -1,22 +1,14 @@
-# Classification d'image de pneumonie OCT
+# Classification d'image de rétine OCT
 
-La pneumonie est une forme d'infection respiratoire aiguë qui affecte les poumons. Les poumons sont constitués de petits sacs appelés alvéoles, qui se remplissent d'air lorsqu'une personne en bonne santé respire. Lorsqu'un individu souffre de pneumonie, les alvéoles sont remplies de pus et de liquide, ce qui rend la respiration douloureuse et limite l'apport d'oxygène.
-
-La pneumonie est selon l'OMS, la principale cause infectieuse de décès chez les enfants dans le monde. La pneumonie a tué 740 180 enfants de moins de 5 ans en 2019, ce qui représente 14 % de tous les décès d'enfants de moins de cinq ans mais 22 % de tous les décès d'enfants âgés de 1 à 5 ans. La pneumonie affecte les enfants et les familles partout, mais les décès sont les plus élevés en Asie du Sud et en Afrique subsaharienne. Les enfants peuvent être protégés contre la pneumonie, elle peut être prévenue par des interventions simples et traitée avec des médicaments et des soins peu coûteux et de faible technologie.
-
-La pneumonie est causée par un certain nombre d'agents infectieux, notamment des virus, des bactéries et des champignons. 
-
-Les plus courants sont : 
-Streptococcus pneumoniae – la cause la plus fréquente de pneumonie bactérienne chez les enfants ; 
-Haemophilus influenzae de type b (Hib) – la deuxième cause la plus fréquente de pneumonie bactérienne ;
-le virus respiratoire syncytial est la cause virale la plus fréquente de pneumonie ;
-
-chez les nourrissons infectés par le VIH, Pneumocystis jiroveci est l'une des causes les plus courantes de pneumonie, responsable d'au moins un quart de tous les décès par pneumonie chez les nourrissons infectés par le VIH.
 
 L'objectif principal de cette étude est de développer un algorithme permettant de différencier 
 
 **Base de données** 
 
-Le jeu de données utilisée, contient des images de tomographie par cohérence optique et de radiographie thoracique validées décrites et analysées dans "CDeep learning-based classification and referral of treatable human diseases" de l'université de Californi - San Diego. Les images OCT sont divisées en un ensemble de formation et un ensemble de test de patients indépendants.
+Le jeu de données utilisée, contient des images de tomographie par cohérence optique validées, décrites et analysées dans "CDeep learning-based classification and referral of treatable human diseases" de l'université de Californi - San Diego. Les images OCT sont divisées en un ensemble de formation et un ensemble de test de patients indépendants.
+
+Les images de tomographie par cohérence optique (OCT) (Spectralis OCT, Heidelberg Engineering, Allemagne) ont été sélectionnées à partir de cohortes rétrospectives de patients adultes du Shiley Eye Institute de l'Université de Californie à San Diego, de la California Retinal Research Foundation, du Medical Center Ophthalmology Associates, du Shanghai First People's Hospital et Beijing Tongren Eye Center entre le 1er juillet 2013 et le 1er mars 2017. Toutes les imageries OCT ont été réalisées dans le cadre des soins cliniques de routine des patients. 
+
+Il n'y avait aucun critère d'exclusion basé sur l'âge, le sexe ou la race. Nous avons recherché dans les bases de données de dossiers médicaux électroniques locaux des diagnostics de néovascularisation choroïdienne, d'œdème maculaire diabétique, de drusen et d'images normales à attribuer initialement. Une coupe fovéale horizontale des scans OCT a été téléchargée avec un format d'image standard selon les logiciels et les instructions du fabricant.
 
 Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification”, Mendeley Data, V2, doi: 10.17632/rscbjbr9sj.2 https://data.mendeley.com/datasets/rscbjbr9sj/2
